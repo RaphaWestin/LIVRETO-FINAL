@@ -12,6 +12,7 @@ import {GAMES} from '../../utils/games';
 import { styles } from './styles';
 import { Background } from '../../components/Background';
 
+// funcoes para funcionar!
 export function Home() {
 
   const [games, setGames] = useState<GameCardProps[]>([])
